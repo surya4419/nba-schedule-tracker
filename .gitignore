@@ -1,5 +1,6 @@
-.env
-# In your root .gitignore
 node_modules
+package-lock.json
 client/node_modules
 client/package-lock.json
+dist
+.env
