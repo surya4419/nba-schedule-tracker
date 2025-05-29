@@ -20,7 +20,7 @@ import {
   Spacer,
 } from '@chakra-ui/react';
 import { FaBasketballBall, FaMoon, FaSun } from 'react-icons/fa';
-import teamLogos from './teamLogos'; // your team logos map
+import teamLogos from './teamLogos'; 
 
 function ColorModeToggle() {
   const { colorMode, toggleColorMode } = useColorMode();
