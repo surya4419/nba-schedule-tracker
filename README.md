@@ -22,3 +22,31 @@ A full-stack web application to display upcoming NBA matches using the [BallDont
 
 ---
 
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/surya4419/nba-schedule-tracker.git
+cd nba-schedule-tracker
+
+
+# Backend
+npm install
+
+# Frontend (if in separate folder)
+cd client
+npm install
+
+#create .env file
+BALLDONTLIE_API_KEY=your_api_key_here
+PORT=5000
+
+# Start backend
+npm start
+
+# Start frontend
+cd client
+npm start
