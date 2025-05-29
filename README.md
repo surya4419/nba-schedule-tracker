@@ -35,6 +35,7 @@ cd nba-schedule-tracker
 
 # Backend
 npm install
+node server.js
 
 # Frontend (if in separate folder)
 cd client
