@@ -45,7 +45,8 @@ function App() {
   useEffect(() => {
     const fetchGames = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/games');
+       // const response = await axios.get('http://localhost:5000/api/games');
+        const response = await axios.get('https://nba-schedule-tracker.onrender.com/api/games');
         setGames(response.data);
         setLoading(false);
       } catch (err) {
